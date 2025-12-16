@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PGR2M - Motion Generation Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>PGR2M: Motion Generation Gallery</h1>
+            <p class="subtitle">Comparing motion generation and editing results</p>
+        </header>
+
+        <div class="gallery-wrapper">
+            <!-- Left Section: Text-to-Motion Generation -->
+            <section class="gallery-section">
+                <h2 class="section-title">Text-to-Motion Generation</h2>
+                
+                <!-- Example 1 -->
+                <div class="comparison-item">
+                    <h3 class="prompt-text">"A person walks forward slowly"</h3>
+                    <div class="comparison-grid">
+                        <div class="method-item">
+                            <h4>CoMo</h4>
+                            <img src="assets/text-to-motion/como_example1.gif" alt="CoMo result" class="motion-gif">
+                        </div>
+                        <div class="method-item">
+                            <h4>Ours</h4>
+                            <img src="assets/text-to-motion/ours_example1.gif" alt="Our result" class="motion-gif">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Example 2 -->
+                <div class="comparison-item">
+                    <h3 class="prompt-text">"A person jumps up and down"</h3>
+                    <div class="comparison-grid">
+                        <div class="method-item">
+                            <h4>CoMo</h4>
+                            <img src="assets/text-to-motion/como_example2.gif" alt="CoMo result" class="motion-gif">
+                        </div>
+                        <div class="method-item">
+                            <h4>Ours</h4>
+                            <img src="assets/text-to-motion/ours_example2.gif" alt="Our result" class="motion-gif">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Example 3 -->
+                <div class="comparison-item">
+                    <h3 class="prompt-text">"A person raises both arms"</h3>
+                    <div class="comparison-grid">
+                        <div class="method-item">
+                            <h4>CoMo</h4>
+                            <img src="assets/text-to-motion/como_example3.gif" alt="CoMo result" class="motion-gif">
+                        </div>
+                        <div class="method-item">
+                            <h4>Ours</h4>
+                            <img src="assets/text-to-motion/ours_example3.gif" alt="Our result" class="motion-gif">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more examples as needed -->
+            </section>
+
+            <!-- Right Section: Motion Editing -->
+            <section class="gallery-section">
+                <h2 class="section-title">Motion Editing</h2>
+                
+                <!-- Example 1 -->
+                <div class="comparison-item">
+                    <h3 class="prompt-text">Original: "Walk" → Edited: "Walk faster"</h3>
+                    <div class="comparison-grid">
+                        <div class="method-item">
+                            <h4>CoMo</h4>
+                            <img src="assets/motion-editing/como_example1.gif" alt="CoMo result" class="motion-gif">
+                        </div>
+                        <div class="method-item">
+                            <h4>Ours</h4>
+                            <img src="assets/motion-editing/ours_example1.gif" alt="Our result" class="motion-gif">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Example 2 -->
+                <div class="comparison-item">
+                    <h3 class="prompt-text">Original: "Jump" → Edited: "Jump higher"</h3>
+                    <div class="comparison-grid">
+                        <div class="method-item">
+                            <h4>CoMo</h4>
+                            <img src="assets/motion-editing/como_example2.gif" alt="CoMo result" class="motion-gif">
+                        </div>
+                        <div class="method-item">
+                            <h4>Ours</h4>
+                            <img src="assets/motion-editing/ours_example2.gif" alt="Our result" class="motion-gif">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Example 3 -->
+                <div class="comparison-item">
+                    <h3 class="prompt-text">Original: "Sit" → Edited: "Sit and wave"</h3>
+                    <div class="comparison-grid">
+                        <div class="method-item">
+                            <h4>CoMo</h4>
+                            <img src="assets/motion-editing/como_example3.gif" alt="CoMo result" class="motion-gif">
+                        </div>
+                        <div class="method-item">
+                            <h4>Ours</h4>
+                            <img src="assets/motion-editing/ours_example3.gif" alt="Our result" class="motion-gif">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more examples as needed -->
+            </section>
+        </div>
+
+        <footer>
+            <p>PGR2M Demo Gallery</p>
+        </footer>
+    </div>
+</body>
+</html>
