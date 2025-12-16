@@ -3,15 +3,19 @@
 이 폴더에 Motion Editing 결과 GIF 파일들을 업로드하세요.
 
 ## 파일 이름 규칙:
+- Original Motion: `original_example1.gif`, `original_example2.gif`, ...
 - CoMo 결과: `como_example1.gif`, `como_example2.gif`, ...
 - Ours 결과: `ours_example1.gif`, `ours_example2.gif`, ...
 
 ## 예시:
 ```
+original_example1.gif
 como_example1.gif
 ours_example1.gif
+original_example2.gif
 como_example2.gif
 ours_example2.gif
+original_example3.gif
 como_example3.gif
 ours_example3.gif
 ...

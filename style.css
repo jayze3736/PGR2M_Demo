@@ -92,6 +92,12 @@ header h1 {
     gap: 20px;
 }
 
+.comparison-grid-editing {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
 .method-item {
     text-align: center;
 }
@@ -147,6 +153,10 @@ footer {
     }
 
     .comparison-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .comparison-grid-editing {
         grid-template-columns: 1fr;
     }
 
