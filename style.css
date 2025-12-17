@@ -84,6 +84,10 @@ header h1 {
     padding: 10px;
     background: white;
     border-radius: 8px;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .comparison-grid {
